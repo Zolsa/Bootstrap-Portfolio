@@ -1,0 +1,160 @@
+
+
+* {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+}
+
+.container {
+	
+}
+
+.header {
+	background-color: white;
+	margin-bottom: %;
+}
+
+.mainsec {
+	background-color: white;
+	margin-top: 2%;
+}
+
+h1 {
+	font-size: 30;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: white;
+	width: 100%;
+	padding: ;
+	text-align: center;
+	margin-left: ;
+}
+
+.mainnav {
+	margin-top: 4%;
+	padding: 4%;
+	width: 100%;
+	text-align: center;
+}
+
+.contact {
+      padding: 10;
+    }
+
+footer {
+	text-align: center;
+	font-size: 12;
+	background-color: #666666;
+	border-style: solid;
+	border-top-color: #4aaaa5;
+	border-width: 0;
+	border-top-width: 10;
+	padding: 30;
+	height: 50;	
+}
+
+h2 {	
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+h3 {
+ 	font-size: 20px;
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	color: #4aaaa5;
+}
+ 
+hr {
+ 	color: #777777;
+}
+
+.main {
+	background-image: url("../images/background.jpg");
+	margin-top:;
+}
+
+#me {
+	float:left;
+	padding-right: 20;
+	width: 100;
+}
+
+input {
+	box-sizing: border-box;
+	width: 400;
+	border-width: 1;
+}
+
+#subbut {
+	width: 30%;
+	height: 40;
+	box-sizing: border-box;
+	background-color: #4aaaa5;
+	font-size: 18;
+	color: white;
+}
+
+#list1 {
+	padding-top: 20;
+	float: right;
+	margin-right: 70;
+}
+
+.pages:hover {
+	color: #4aaaa5;
+}
+
+.horizontal { 
+	display: inline; 
+	border-left: 1 solid;
+	padding: 0 10 10 10; 
+	padding-right: 10; 
+	height: 30;
+}
+
+.first { 
+	border-left: none;
+}
+
+.nav2 {
+	text-align: center;
+    background-color: white;
+    font-size: 12;
+    color: #333333;
+}
+
+.icons{
+    width: 30%; 
+    height: 30%;
+    padding: 5%;
+}
+
+.icons:hover {
+     background: #333333;
+}
+
+
+.galimg {
+	margin-bottom: 40;
+}
+
+.right {
+ 	float: right;
+ }
+
+.desc {
+	position: relative;
+	margin-top: -50;
+    padding-top: 5;
+    text-align: center;
+    color: white;
+    font-size: 15;
+    background-color: #4aaaa5;
+    width: 180;
+    height: 30;	    
+}
+
+
+
+
