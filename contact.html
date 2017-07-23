@@ -9,74 +9,64 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
-	<!--Tried the reset but it messed some stuff up.  Also a disclaimer... I completed most of this before Saturdays class.  If I had to do it over again now, the code structure would look a tad different-->
 </head>
 
-<body class="container-fluid main">
-	<div class="container">
-		<div class="row header">
+<body>
+	
+	<nav class="navbar navbar-default navbar-fixed-top navbar-toggleable ">
+  		<div class="container">
+    		<div class="navbar-header navbar-left">
+      			<h1>Zoli Saunt</h1>
+    		</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-6">
-				<h1>Zoli Saunt</h1>
-			</div>
-	    
-			<div class="col-xs-12 col-sm-12 col-md-6">
-				<div class="mainnav">
-				<ul class="nav nav-pills ">
-			  		<li role="presentation" class="horizontal first"><a href="index.html">About</a></li>
-			  		<li role="presentation" class="horizontal"><a href="portfolio.html">Portfolio</a></li>
-			  		<li role="presentation" class="horizontal active"><a href="contact.html">Contact</a></li>
-				</ul>
-				</div>
-			</div>
+			<ul class="nav nav-pills navbar-right">
+				<li class=><a href="index.html">About</a></li>
+				<li class=><a href="portfolio.html">Portfolio</a></li>
+				<li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+			</ul>
 
 		</div>
-	</div>
+	</nav>
 	
-	<div class="container main">
+	<div class="container backgr">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-8 mainsec">	
-				<h2>Contact</h2>
-				<hr>
-				<form>
-			    	<div class="form-group">
-			      		<label for="name">Name:</label>
-			      		<input type="name" class="form-control" id="name" placeholder="Name" name="name">
-			    	</div>
-			    	<div class="form-group">
-			      		<label for="email">Email:</label>
-			      		<input type="email" class="form-control" id="email" placeholder="Email" name="email">
-			    	</div>
-			    	<div>
-			    		<label for="message">Message:</label>
-			    		<input type="message" class="form-control" id="message" placeholder="Speak your piece here please" name="message">
-			    	</div>
-			    	<br>
-			   		<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-			</div>
-
-			<div class="col-xs-12 col-sm-12 col-md-4 panel panel-default panel-body mainsec">
-				<h3>Connect with Me</h3>
-				<hr>
-
-				
-			    <a href="https://github.com/Zolsa" ><img class="icons" src="assets/images/github.svg"></a>
-			    <a href="https://www.linkedin.com/in/zoli-saunt-29414974/" ><img class="icons" src="assets/images/linkedin.svg"></a>
-			    <a href="https://www.facebook.com/zoli.saunt" ><img class="icons" src="assets/images/fb.svg"></a>
+		<!--Main Content-->
+			<div class="col-xs-12 col-sm-12 col-md-8 maincon">
+				<div class="panel panel-default panel-body">				
+					<h2>Contact</h2>
+					<hr>
+					<form>
+				    	<div class="form-group">
+				      		<label for="name">Name:</label>
+				      		<input type="name" class="form-control" id="name" placeholder="Name" name="name">
+				    	</div>
+				    	<div class="form-group">
+				      		<label for="email">Email:</label>
+				      		<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+				    	</div>
+				    	<div>
+				    		<label for="message">Message:</label>
+				    		<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+				    	</div>
+				    	<br>
+				   		<button type="submit" class="btn btn-default">Submit</button>
+					</form>		
+				</div>
 			</div>	
+			<!--2nd column (sidenav)-->
+			<div class="col-xs-12 col-sm-12 col-md-4 sidenav">
+				<div class="panel panel-default panel-body">
+					<h3>Connect with Me</h3><hr>
+				    <a href="https://github.com/Zolsa" ><img class="icons" src="assets/images/github.svg"></a>
+				    <a href="https://www.linkedin.com/in/zoli-saunt-29414974/" ><img class="icons" src="assets/images/linkedin.svg"></a>
+				    <a href="https://www.facebook.com/zoli.saunt" ><img class="icons" src="assets/images/fb.svg"></a>
+			    </div>
+			</div>
 		</div>
+
+	<div class="navbar-fixed-bottom">
+		<footer>Copyright 2017 Zoli Saunt</footer>		
 	</div>
-
-	<footer class="footer">
-		<div classs="container">
-			Copyright 2017 Zoli Saunt
-		</div>
-	</footer>
 	
-
-		
-
 </body>
 </html>
