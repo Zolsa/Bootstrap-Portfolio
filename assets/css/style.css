@@ -37,8 +37,7 @@ h3 {
 	text-align: center;
 }
 
-/*Thought this was a cool way to tie in the colors with the navbar, although it does make it a 
-  little tricky on xs screens.  Figuring out where to put what colors and how to adjust the heights was a tad confusing*/
+/*Thought this was a cool way to tie in the colors with the navbar.  */
 .navbar-right {
 	margin-top: 10px;
 	padding-top: 5px;
@@ -77,7 +76,7 @@ body { padding-bottom: 40px; padding-top: 70px;}
     width: 30%; 
     height: 11%;
     padding: 2%;
-    max-height: 120px;   
+    max-height: 120px; 
 }
 
 .icons:hover {
@@ -111,7 +110,7 @@ footer {
 	margin-bottom: 30px;
 }
 
-/*This is cool stuff*/
+/*This is cool stuff I found online*/
 .hovereffect {
   width: 100%;
   height: 30%;
@@ -120,7 +119,6 @@ footer {
   position: relative;
   text-align: center;
   cursor: default;
-
 }
 
 .hovereffect .overlay {
@@ -191,8 +189,22 @@ footer {
   transform: scale(1);
 }
 
+/*Fixes a small margin jumping issue*/
 @media only screen and (max-width: 767px) {
   h1 {
     margin-left: 0;
-  }
+  }   
 }
+
+/*Tried this to fix the icon hover width issue under 991 px but couldn't get it top work
+@media only screen and (max-width: 991px) {
+  .icons {
+    width: 0%; 
+    height: 11%;
+    padding: 20%;
+    max-height: 120px; 
+  }  
+}
+*/
+
+  
